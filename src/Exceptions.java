@@ -39,3 +39,17 @@ int []a = new int[5];
         }
         System.out.println("Last Checked");
 */
+
+
+/*
+THROW
+
+try{
+        //code
+        throw new MyException();
+
+}catch(Exception e){
+      //code
+}
+
+*/
