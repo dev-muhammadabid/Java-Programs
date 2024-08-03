@@ -48,7 +48,7 @@ try{
         //code
         throw new MyException();
 
-}catch(Exception e){
+}catch  (Exception e){
       //code
 }
 
