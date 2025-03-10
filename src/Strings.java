@@ -3,8 +3,6 @@ import java.util.*;
 public class Strings {
     public static void main(String[] args) {
         System.out.println("Strings Program");
-
-
     }
 }
 
@@ -72,3 +70,20 @@ public class Strings {
         StringBuilder reversed = new StringBuilder(str).reverse();
         System.out.println(reversed);
         */
+
+        /*
+         REVERSE-ANOTHER METHOD
+          StringBuilder sb = new StringBuilder("ABii");
+
+        for(int i = 0; i < sb.length()/2; i++){
+            int front = i;
+            int back = sb.length() - 1 - i;
+
+            char frontChar = sb.charAt(front);
+            char backChar = sb.charAt(back);
+
+            sb.setCharAt(front, backChar);
+            sb.setCharAt(back, frontChar);
+        }
+        System.out.println(sb);
+         */
